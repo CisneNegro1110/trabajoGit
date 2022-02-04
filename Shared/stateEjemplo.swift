@@ -24,3 +24,4 @@ struct stateEjemplo_Previews: PreviewProvider {
         stateEjemplo()
     }
 }
+//comentario mas
