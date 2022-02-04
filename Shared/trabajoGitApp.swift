@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct trabajoGitApp: App {
+    var appState = AppState()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(appState).environmentObject(appState.countState).environmentObject(appState.lightState)
+            //observObjectEjemplo()
         }
     }
 }

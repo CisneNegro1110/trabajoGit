@@ -17,6 +17,10 @@
 		EA831BC627A993A000828B30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA831B9C27A9939D00828B30 /* ContentView.swift */; };
 		EA831BC727A993A000828B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA831B9D27A993A000828B30 /* Assets.xcassets */; };
 		EA831BC827A993A000828B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA831B9D27A993A000828B30 /* Assets.xcassets */; };
+		EAB9EF6E27A9D58900A1B120 /* obsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9EF6D27A9D58900A1B120 /* obsObject.swift */; };
+		EAB9EF6F27A9D58900A1B120 /* obsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9EF6D27A9D58900A1B120 /* obsObject.swift */; };
+		EAB9EF7127A9D6C500A1B120 /* stateEjemplo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9EF7027A9D6C500A1B120 /* stateEjemplo.swift */; };
+		EAB9EF7227A9D6C500A1B120 /* stateEjemplo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB9EF7027A9D6C500A1B120 /* stateEjemplo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		EA831BBB27A993A000828B30 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA831BBF27A993A000828B30 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		EA831BC127A993A000828B30 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		EAB9EF6D27A9D58900A1B120 /* obsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obsObject.swift; sourceTree = "<group>"; };
+		EAB9EF7027A9D6C500A1B120 /* stateEjemplo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stateEjemplo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 			children = (
 				EA831B9B27A9939D00828B30 /* trabajoGitApp.swift */,
 				EA831B9C27A9939D00828B30 /* ContentView.swift */,
+				EAB9EF7027A9D6C500A1B120 /* stateEjemplo.swift */,
+				EAB9EF6D27A9D58900A1B120 /* obsObject.swift */,
 				EA831B9D27A993A000828B30 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,7 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB9EF6E27A9D58900A1B120 /* obsObject.swift in Sources */,
 				EA831BC527A993A000828B30 /* ContentView.swift in Sources */,
+				EAB9EF7127A9D6C500A1B120 /* stateEjemplo.swift in Sources */,
 				EA831BC327A993A000828B30 /* trabajoGitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +318,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB9EF6F27A9D58900A1B120 /* obsObject.swift in Sources */,
 				EA831BC627A993A000828B30 /* ContentView.swift in Sources */,
+				EAB9EF7227A9D6C500A1B120 /* stateEjemplo.swift in Sources */,
 				EA831BC427A993A000828B30 /* trabajoGitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
