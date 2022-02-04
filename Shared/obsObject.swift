@@ -17,7 +17,7 @@ struct obsObject: View {
         VStack {
             Text(stateApp.car.description)
             Text("\(stateApp.car)")
-            Button("Incrementar"){
+            Button("Incrementar +1"){
                 self.stateApp.car += 1
             }
         }
